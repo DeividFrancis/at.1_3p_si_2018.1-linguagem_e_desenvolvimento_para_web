@@ -10,5 +10,8 @@
   * Página principal.
   
 ### Grupo de 4 integrantes no máximo.
-  _INTEGRANTES_
+  **INTEGRANTES**
+  - Deivid Francis de Oliveira
+  - Daniel Jóse Bispo  Mediote
+  
 ### Entrega dia 21 de março de 2018.

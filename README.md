@@ -8,3 +8,6 @@
   * Uma página para contar a quantidade de números primos entre dois números.
   * Uma página para calcular equação do 3° grau.
   * Página principal.
+  
+### Grupo de 4 integrantes no máximo.
+### Entrega dia 21 de março de 2018.

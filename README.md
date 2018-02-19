@@ -3,7 +3,7 @@
 
 ## Construção de um portal dinâmico.
   * Uma página para calcular juros simples e composto.
-  * Uma página para calcular a área do  
+  * Uma página para calcular a área do do Círculo, Trapézio, Losango.  
   * Uma página para calcular a área e volume do cilindro.
   * Uma página para contar a quantidade de números primos entre dois números.
   * Uma página para calcular equação do 3° grau.

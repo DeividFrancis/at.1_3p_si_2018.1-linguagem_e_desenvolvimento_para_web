@@ -1,2 +1,5 @@
-FROM php:5.6-apache
-VOLUME ./app ./var/wwww
+FROM php:7.0-apache
+COPY app /var/www/html
+EXPOSE 80
+
+ENTRYPOINT /usr/sbin/apache2ctl -D FOREGROUND

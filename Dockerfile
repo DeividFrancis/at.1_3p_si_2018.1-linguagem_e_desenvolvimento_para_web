@@ -1,2 +1,3 @@
-FROM php:5.6-apache
-VOLUME ./app ./var/wwww
+FROM php:7.0-apache
+EXPOSE 80
+COPY app /var/www/html

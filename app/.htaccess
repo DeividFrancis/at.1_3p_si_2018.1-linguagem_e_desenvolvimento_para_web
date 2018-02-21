@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteRule ^atividade/?$ /views/teste.php [NC,L]
+</IfModule>

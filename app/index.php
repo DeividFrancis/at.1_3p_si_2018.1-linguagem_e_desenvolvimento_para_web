@@ -1,3 +1,3 @@
 <?php
-echo "Hello deivid";
+echo "Hello Docker-compose";
  ?>

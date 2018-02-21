@@ -3,4 +3,5 @@
   RewriteEngine On
 
   RewriteRule ^atividade/?$ /views/teste.php [NC,L]
+  RewriteRule ^home/?$ /index.php [NC,L]
 </IfModule>

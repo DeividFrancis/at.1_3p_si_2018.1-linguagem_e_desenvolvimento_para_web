@@ -4,4 +4,7 @@
 
   RewriteRule ^atividade/?$ /views/teste.php [NC,L]
   RewriteRule ^home/?$ /index.php [NC,L]
+
+  RewriteRule ^juros-simples-composto/?$ /views/juros-simples-composto.php [NC,L]
+  RewriteRule ^area-circulo-trapezio-losango/?$ /views/area-circulo-trapezio-losango.php [NC,L]
 </IfModule>

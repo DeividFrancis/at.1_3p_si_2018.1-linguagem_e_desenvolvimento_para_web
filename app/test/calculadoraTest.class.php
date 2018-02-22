@@ -21,7 +21,13 @@ $calculadora = new calculadora();
 
 $res = $calculadora->conta_quantidade_de_numeros_primos_entre_dois_numeros(0,10);
 
-var_dump($res);
+foreach ($res as $key => $value) {
+  if($value){
+    echo "<h1>$key</h1>";
+  }else{
+    echo "<h5>$key</h5>";
+  }
+}
 
 // echo pow(0.035,12);
  ?>

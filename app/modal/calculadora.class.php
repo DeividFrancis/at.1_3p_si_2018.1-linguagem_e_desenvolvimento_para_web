@@ -72,7 +72,9 @@ class calculadora
           $cont++;
       }
       if($cont == 2){
-        array_push($result,$i);
+        $result[$i] = true;
+      }else{
+        $result[$i] = false;
       }
     }
 

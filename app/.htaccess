@@ -5,6 +5,6 @@
   RewriteRule ^atividade/?$ /views/teste.php [NC,L]
   RewriteRule ^home/?$ /index.php [NC,L]
 
-  RewriteRule ^juros-simples-composto/?$ /views/calculo/juros-simples-composto.template.php [NC,L]
+  RewriteRule ^juros-simples-composto/?$ /views/calculo/jurosSimplesComposto.template.php [NC,L]
   RewriteRule ^area-circulo-trapezio-losango/?$ /views/area-circulo-trapezio-losango.php [NC,L]
 </IfModule>

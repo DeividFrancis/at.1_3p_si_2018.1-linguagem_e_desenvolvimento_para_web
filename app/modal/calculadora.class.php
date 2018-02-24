@@ -12,10 +12,15 @@ class calculadora
     return $result;
   }
 
-  public function juros_composto($capital, $tempo, $juros)
+  public function juros_composto($capital, $taxa, $tempo)
   {
-     $result = $capital * pow((1 + $juros),$tempo);
-     return number_format($result,2,",",".");
+     $result = Array();
+     $result['total'] = $capital * pow((1 + $taxa),$tempo);
+     $result['juros'] = $result['total'] - $capital;
+
+     $result['total'] = number_format($result['total'],2,",",".");
+     $result['juros'] = number_format($result['juros'],2,",",".");
+     return $result;
   }
 
   public function area_circulo($raio)

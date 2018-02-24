@@ -4,10 +4,11 @@
  */
 class calculadora
 {
-  public function juros_simples($capital, $juros, $tempo)
+  public function juros_simples($capital, $taxa, $tempo)
   {
-    $result = $capital * $juros * $tempo;
-    $result += $capital;
+    $result = Array();
+    $result['juros'] = $capital * $taxa * $tempo;
+    $result['total'] = $result['juros'] +  $capital;
     return $result;
   }
 

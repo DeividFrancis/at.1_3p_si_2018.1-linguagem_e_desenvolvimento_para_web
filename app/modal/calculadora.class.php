@@ -26,7 +26,7 @@ class calculadora
   public function area_circulo($raio)
   {
     $result = M_PI * pow($raio,2);
-    return number_format($result,2,".",null );
+    return number_format($result,2);
   }
 
   public function area_trapezio($altura, $base_maior,$base_menor)

@@ -2,10 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title><<?php $title ?></title>
+    <title>home</title>
   </head>
   <body>
-    <h1>Eae man Daniel TEsta o cell ae</h1>
-    <a href="atividade">Atividade</a>
+    <ul>
+      <li><a href="juros-simples-composto">Juros simples/coposto</a></li>
+      <li><a href="area-circulo-trapezio-losango">Area circulo trapezio e losango/coposto</a></li>
+      <li><a href="quantidade-de-numeros-primos-entre-dois-numeros">Calculo numeros primos</a></li>
+      <li><a href=""></a></li>
+    </ul>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
   </body>
 </html>

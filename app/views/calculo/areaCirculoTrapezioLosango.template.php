@@ -1,4 +1,4 @@
-<?php require_once '../_includes/header.php'; ?>
+<?php $title = 'Area Circulo Trapezio Losango'; require_once '../_includes/header.php'; ?>
 <h5>Area do Circulo</h5>
 <form class="" action="../../controller/areaCirculo.controller.php" method="post">
     raio<input type="text" name="raio">
@@ -12,9 +12,23 @@
 <h5>Areaa Trapezio</h5>
 
 <form class="" action="../../controller/areaTrapezio.controller.php" method="post">
-  <input type="text" name="altura">
-  <input type="text" name="baseMenor">
-  <input type="text" name="baseMaior">
+  altura<input type="text" name="altura">
+  Bmenor<input type="text" name="baseMenor">
+  Bmaior<input type="text" name="baseMaior">
+  <button type="submit" name="button">Calcular</button>
+</form>
+
+<h5>Area Losango</h5>
+<form class="" action="../../controller/areaLosango.controller.php" method="post">
+    Dmaior<input type="text" name="diagonalMaior">
+    Dmenor<input type="text" name="diagonalMenor">
+    <button type="submit" name="button">Calcular</button>
+</form>
+
+<h5>Area e volume do cilindro</h5>
+<form class="" action="../../controller/areaVolumeCilindro.controller.php" method="post">
+  raio<input type="text" name="raio">
+  altura<input type="text" name="altura">
   <button type="submit" name="button">Calcular</button>
 </form>
 

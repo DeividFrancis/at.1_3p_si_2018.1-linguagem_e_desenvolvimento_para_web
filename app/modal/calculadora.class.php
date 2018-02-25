@@ -32,25 +32,25 @@ class calculadora
   public function area_trapezio($altura, $base_maior,$base_menor)
   {
     $result = ($altura * ($base_maior + $base_menor))/ 2;
-    return number_format($result,2,".",null);
+    return number_format($result,2,",",".");
   }
 
   public function area_losango($diagonal_menor,$diagonal_maior)
   {
     $result = ($diagonal_maior * $diagonal_menor) / 2;
-    return number_format($result,2,".",null);
+    return number_format($result,2,",",".");
   }
 
   public function area_cilindro($raio, $altura)
   {
     $result = 2 * M_PI * $raio * ($raio + $altura);
-    return number_format($result,2,".",null);
+    return number_format($result,2,",",".");
   }
 
   public function volume_cilindro($raio,$altura)
   {
     $result = M_PI * pow($raio,2) * $altura;
-    return number_format($result,2,".",null);
+    return number_format($result,2,",",".");
   }
 
   public function retorna_primo($value)

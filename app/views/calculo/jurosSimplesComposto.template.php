@@ -1,8 +1,8 @@
 <?php $title = 'Juros Simples e Composto'; require_once '../_includes/header.php'; ?>
-<div class="card">
+<div class="card hoverable">
 <div class="card-content">
   <div class="card-title">Juros Simples</div>
-    <form class="col s12" action="../../controller/jurosSimples.controller.php" method="POST">
+    <form class="col s12" action="" method="POST">
       <div class="row">
         <div class="input-field col s6">
           <input id="capital" type="text" name="capital">
@@ -20,19 +20,20 @@
         </div>
       </div>
       <div class="row">
-        <button class="btn waves-effect waves-light" type="submit" name="action">Calcular
+        <button class="btn waves-effect waves-light" type="submit" name="simples">Calcular
           <i class="material-icons right">send</i>
         </button>
       </div>
     </form>
 </div>
+<?php include '../../controller/jurosSimples.controller.php'; ?>
 </div>
 
 
 <div class="card">
 <div class="card-content">
   <div class="card-title">Juros Composto</div>
-<form class="col s12" action="../../controller/jurosComposto.controller.php" method="POST">
+<form class="col s12" action="" method="POST">
   <div class="row">
     <div class="input-field col s6">
       <input id="capital" type="text" name="capital">
@@ -50,12 +51,13 @@
     </div>
   </div>
   <div class="row">
-    <button class="btn waves-effect waves-light" type="submit" name="action">Calcular
+    <button class="btn waves-effect waves-light" type="submit" name="composto">Calcular
       <i class="material-icons right">send</i>
     </button>
   </div>
 </form>
 </div>
+<?php include '../../controller/jurosComposto.controller.php'; ?>
 </div>
 <!-- <h5>Juros simples</h5>
 <form class="" action="../../controller/jurosSimples.controller.php" method="POST">

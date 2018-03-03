@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>home</title>
-  </head>
-  <body>
+<?php include 'views/_includes/header.php'; ?>
     <ul>
       <li><a href="juros-simples-composto">Juros simples/coposto</a></li>
       <li><a href="area-circulo-trapezio-losango">Area circulo trapezio e losango/coposto</a></li>
@@ -14,5 +8,4 @@
     <a href=""></a>
     <a href=""></a>
     <a href=""></a>
-  </body>
-</html>
+<?php include 'views/_includes/footer.php'; ?>

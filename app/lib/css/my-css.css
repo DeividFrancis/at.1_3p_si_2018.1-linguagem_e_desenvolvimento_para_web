@@ -1,0 +1,26 @@
+main,footer,header{
+  padding-left: 200px;
+}
+@media only screen and (max-width: 992px){
+  main,footer,header{
+    padding-left: 0;
+  }
+
+}
+
+.darken-4 label,.darken-4 .input-field label{
+  color: #fff;
+}
+
+.darken-4 [type="radio"]:not(:checked) + label:before, [type="radio"]:not(:checked) + label:after{
+  border-color: #fff;
+}
+
+.card input{
+  font-size: 2em !important;
+}
+
+
+.hader{
+  color: #444;
+}

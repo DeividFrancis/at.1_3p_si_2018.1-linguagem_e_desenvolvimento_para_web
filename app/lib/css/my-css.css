@@ -8,11 +8,11 @@ main,footer,header{
 
 }
 
-.darken-4 label,.darken-4 .input-field label{
+.deep-purple label,.deep-purple .input-field label{
   color: #fff;
 }
 
-.darken-4 [type="radio"]:not(:checked) + label:before, [type="radio"]:not(:checked) + label:after{
+.deep-purple [type="radio"]:not(:checked) + label:before, [type="radio"]:not(:checked) + label:after{
   border-color: #fff;
 }
 
@@ -23,4 +23,13 @@ main,footer,header{
 
 .hader{
   color: #444;
+}
+
+/* Especiais do index */
+.index{
+  padding-left: 0;
+}
+
+.space-1{
+  padding: 2em 0;
 }

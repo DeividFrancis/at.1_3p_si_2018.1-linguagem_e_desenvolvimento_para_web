@@ -11,7 +11,7 @@
         Area = raio * pi
       </blockquote>
       <div class="col s6 offset-s3">
-        <div class="card hoverable deep-purple darken-4 white-text">
+        <div class="card hoverable deep-purple  white-text">
           <div class="card-content">
             <div class="card-title">Área do Círculo</div>
             <form action="" method="post">
@@ -59,7 +59,7 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple darken-4 white-text">
+      <div class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Área do Trapezio</div>
           <form method="post">
@@ -110,7 +110,7 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple darken-4 white-text">
+      <div class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Área Losango</div>
           <form method="post">
@@ -154,7 +154,7 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple darken-4 white-text">
+      <div class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Área e volume do cílindro</div>
           <form action="" method="post">

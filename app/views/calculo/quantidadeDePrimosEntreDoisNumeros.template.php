@@ -1,8 +1,8 @@
 <?php $title = "Qtd De Primos Entre Dois Numeros"; require_once '../_includes/header.php'; ?>
 
-<div class="card ">
+<div class="card deep-purple">
   <div class="card-content">
-    <div class="card-ti">Números primos entre dois números</div>
+    <div class="card-title">Números primos entre dois números</div>
     <form class="col s12" method="post">
       <div class="row">
         <div class="input-field col s6">

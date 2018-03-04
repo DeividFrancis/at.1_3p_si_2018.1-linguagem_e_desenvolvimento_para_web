@@ -17,7 +17,7 @@
   </head>
   <body class="">
     <header>
-      <nav class="top-nav deep-purple darken-1">
+      <nav class="top-nav deep-purple">
         <div class="container">
           <div class="nav-wrapper">
             <a href="#" class="brand-logo">Logo</a>

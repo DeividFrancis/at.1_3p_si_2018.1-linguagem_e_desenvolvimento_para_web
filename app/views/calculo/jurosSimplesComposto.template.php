@@ -10,7 +10,7 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple darken-4 white-text">
+      <div class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Juros Simples</div>
           <form class="" action="" method="POST">
@@ -54,7 +54,7 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple darken-4 white-text">
+      <div class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Juros Composto</div>
           <form action="" method="POST">

@@ -10,8 +10,8 @@ if(filter_has_var(INPUT_POST,'areaTrapezio')){
   $res = $calculadora->area_trapezio($altura,$base_maior,$base_menor);
 
   echo "
-  <div class='card-panel red'>
-    <h3 class='center white-text bold'>".$res."</h3>
+  <div class='card-panel'>
+    <h3 class='center  deep-purple-text'>".$res."</h3>
   </div>
   ";
 }

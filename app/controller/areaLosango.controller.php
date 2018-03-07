@@ -12,8 +12,8 @@ if (filter_has_var(INPUT_POST,"losango")) {
   $res = $calculadora->area_losango($diagonal_menor,$diagonal_maior);
 
   echo "
-  <div class='card-panel red'>
-  <h3 class='center white-text bold'>".$res."</h3>
+  <div class='card-panel'>
+  <h3 class='center deep-purple-text'>".$res."</h3>
   </div>
   ";
 }

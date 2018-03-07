@@ -11,8 +11,8 @@ if (filter_has_var(INPUT_POST,"circulo")) {
   $res = $calculadora->area_circulo($raio);
 
   echo "
-  <div class='card-panel red'>
-    <h3 class='center white-text bold'>".$res."</h3>
+  <div class='card-panel'>
+    <h3 class='center deep-purple-text'>".$res."m</h3>
   </div>
   ";
 }

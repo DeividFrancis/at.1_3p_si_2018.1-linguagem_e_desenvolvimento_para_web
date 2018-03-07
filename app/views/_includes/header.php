@@ -23,15 +23,13 @@
             <a href="#" class="brand-logo">Logo</a>
             <!-- <ul id="nav-mobile" class="right">
               <li><a href="sass.html">Sass</a></li>
-              <li><a href="badges.html">Components</a></li>
               <li><a href="collapsible.html">JavaScript</a></li>
+              <li><a href="badges.html">Components</a></li>
             </ul> -->
           </div>
+            <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a>
         </div>
       </nav>
-      <div class="container">
-        <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a>
-      </div>
       <ul id="nav-mobile" class="side-nav fixed">
         <li><a href="//localhost">Home</a></li>
         <li><a href="juros-simples-composto">Juros simples/coposto</a></li>

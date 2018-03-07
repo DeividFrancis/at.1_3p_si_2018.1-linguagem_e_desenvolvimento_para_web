@@ -13,15 +13,15 @@ if (filter_has_var(INPUT_POST,'cilindro')) {
     $res = Array('area' => $area, 'volume' => $volume);
 
     echo "
-    <div class='card-panel red'>
-    <h3 class='center white-text bold'>Área: ".$res['area']."</h3>
-    <h3 class='center white-text bold'>Volume: ".$res['volume']."</h3>
+    <div class='card-panel '>
+    <h3 class='center  deep-purple-text'>Área: ".$res['area']."</h3>
+    <h3 class='center  deep-purple-text'>Volume: ".$res['volume']."</h3>
     </div>
     ";
   }else {
     echo "
-    <div class='card-panel red'>
-    <p class='center white-text bold'>Verifique os campos</p>
+    <div class='card-panel '>
+    <p class='center  deep-purple-text'>Verifique os campos</p>
     </div>
     ";
   }

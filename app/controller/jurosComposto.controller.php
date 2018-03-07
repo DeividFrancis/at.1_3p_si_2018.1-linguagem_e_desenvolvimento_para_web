@@ -18,9 +18,9 @@ if (filter_has_var(INPUT_POST,'composto')) {
   $res = $calculadora->juros_composto($capital,$taxa,$tempo);
 
   echo "
-  <div class='card-panel red'>
-  <p class='center white-text bold'>Juros: ".$res['juros']."</p>
-  <p class='center white-text bold'>Total: ".$res['total']."</p>
+  <div class='card-panel'>
+  <p class='center  deep-purple-text'>Juros: ".$res['juros']."</p>
+  <p class='center  deep-purple-text'>Total: ".$res['total']."</p>
   </div>
   ";
 }

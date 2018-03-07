@@ -22,7 +22,7 @@
         <div class="nav-wrapper deep-purple">
           <a href="#!" class="brand-logo">Logo</a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
+            <li><a href="http://github.com/DeividFrancis/at.1_3p_si_2018.1-linguagem_e_desenvolvimento_para_web">GitHub</a></li>
             <li><a href="badges.html">Components</a></li>
           </ul>
         </div>

@@ -25,7 +25,7 @@ if (filter_has_var(INPUT_POST,'primos')) {
   }
 
   echo "
-  <div class='card-panel'>
+  <div id='resultado' class='card-panel'>
   <strong>De ".$numero_inicial." até ".$numero_final." contêm ".$cont." números primos!</strong>
   <p class='flow-text'>".$html."</p>
   </div>

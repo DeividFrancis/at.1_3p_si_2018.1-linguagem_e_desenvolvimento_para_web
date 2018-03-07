@@ -3,7 +3,7 @@
 <div class="card deep-purple">
   <div class="card-content">
     <div class="card-title">Números primos entre dois números</div>
-    <form class="col s12" method="post">
+    <form action="/quantidade-de-numeros-primos-entre-dois-numeros#resultado" class="col s12" method="post">
       <div class="row">
         <div class="input-field col s6">
           <input type="text" name="numeroInicial">

@@ -10,10 +10,10 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple   white-text">
+      <div id="juros-simples" class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Juros Simples</div>
-          <form class="" action="" method="POST">
+          <form class="" action="/juros-simples-composto#juros-simples" method="POST">
             <div class="row">
               <div class="input-field col s6">
                 <input id="capital" type="text" name="capital">
@@ -54,10 +54,10 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple   white-text">
+      <div id="juro-composto" class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Juros Composto</div>
-          <form action="" method="POST">
+          <form action="/juros-simples-composto#juro-composto" method="POST">
             <div class="row">
               <div class="input-field col s6">
                 <input id="capital" type="text" name="capital">

@@ -1,30 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
 
-    <!-- Import materialize off -->
-    <link rel="stylesheet" href="lib/materialize/css/materialize.css" media="screen,projection">
+  <!-- Import materialize off -->
+  <link rel="stylesheet" href="lib/materialize/css/materialize.css" media="screen,projection">
 
-    <!-- Impot My Css -->
-    <link rel="stylesheet" href="lib/css/my-css.css">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- Impot My Css -->
+  <link rel="stylesheet" href="lib/css/my-css.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Niconne&amp;subset=latin-ext" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-  <body class="">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body class="">
+  <style media="screen">
+    .logo{
+      font-family: 'Niconne', cursive;
+      font-size: 1em;
+      /* font-weight: bold; */
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      transform: rotate(-5deg);
+      top: -18px;
+    }
+    .sistema{
+
+    }
+    .de{
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        font-size: 15%;
+    }
+    .informacao{
+      position: absolute;
+      top: 45%;
+      left: 1rem;
+    }
+  </style>
   <header class="index">
     <div class="navbar-fixed ">
       <nav>
         <div class="nav-wrapper deep-purple">
-          <a href="#!" class="brand-logo">Logo</a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="http://github.com/DeividFrancis/at.1_3p_si_2018.1-linguagem_e_desenvolvimento_para_web">GitHub</a></li>
-            <li><a href="badges.html">Components</a></li>
-          </ul>
+          <div class="container">
+            <a href="#!" class="brand-logo">
+              <div class="logo">
+                <span class="sistema">Sistema</span>
+                <span class="de">de</span>
+                <span class="informacao">Informação</span>
+              </div>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="http://github.com/DeividFrancis/at.1_3p_si_2018.1-linguagem_e_desenvolvimento_para_web">GitHub</a></li>
+              <li><a href="badges.html">Components</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
@@ -90,4 +126,4 @@
       </div>
     </div>
   </main>
-<?php include 'views/_includes/footer.php'; ?>
+  <?php include 'views/_includes/footer.php'; ?>

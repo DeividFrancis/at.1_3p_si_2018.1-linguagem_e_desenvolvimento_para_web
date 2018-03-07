@@ -11,10 +11,10 @@
         Area = raio * pi
       </blockquote>
       <div class="col s6 offset-s3">
-        <div class="card hoverable deep-purple  white-text">
+        <div id="circulo" class="card hoverable deep-purple  white-text">
           <div class="card-content">
             <div class="card-title">Área do Círculo</div>
-            <form action="" method="post">
+            <form action="/area-circulo-trapezio-losango#circulo" method="post">
               <div class="row">
                 <div class="input-field s10 center">
                   <input type="text" name="raio">
@@ -59,10 +59,10 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple   white-text">
+      <div id="trapezio" class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Área do Trapezio</div>
-          <form method="post">
+          <form action="/area-circulo-trapezio-losango#trapezio" method="post">
             <div class="row">
               <div class="input-field col s12 m4 l4">
                 <input type="text" name="altura" id="altura">
@@ -110,10 +110,10 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple   white-text">
+      <div id="losango" class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Área Losango</div>
-          <form method="post">
+          <form action="/area-circulo-trapezio-losango#losango" method="post">
             <div class="row">
               <div class="input-field col s12 m6">
                 <input type="text" name="diagonalMaior" id="dMaior">
@@ -154,10 +154,10 @@
         formula
       </blockquote>
 
-      <div class="card hoverable deep-purple   white-text">
+      <div id="volume-cilindro" class="card hoverable deep-purple   white-text">
         <div class="card-content">
           <div class="card-title">Área e volume do cílindro</div>
-          <form action="" method="post">
+          <form action="/area-circulo-trapezio-losango#volume-cilindro" method="post">
             <div class="row">
               <div class="input-field col s6">
                 <input type="text" name="raio">
@@ -187,36 +187,36 @@
   </div>
 </div>
 <!-- <h5>Area do Circulo</h5>
-<form class="" action="../../controller/areaCirculo.controller.php" method="post">
+  <form class="" action="../../controller/areaCirculo.controller.php" method="post">
     raio<input type="text" name="raio">
     <input type="radio" name="metragem">centimetros
     <input type="radio" name="metragem">metros
     <input type="radio" name="metragem">kilometros
     <button type="submit" name="button">Calcular</button>
-</form> -->
+  </form> -->
 
 
-<!-- <h5>Areaa Trapezio</h5>
+  <!-- <h5>Areaa Trapezio</h5>
 
-<form class="" action="../../controller/areaTrapezio.controller.php" method="post">
-  altura<input type="text" name="altura">
-  Bmenor<input type="text" name="baseMenor">
-  Bmaior<input type="text" name="baseMaior">
-  <button type="submit" name="button">Calcular</button>
-</form> -->
+    <form class="" action="../../controller/areaTrapezio.controller.php" method="post">
+      altura<input type="text" name="altura">
+      Bmenor<input type="text" name="baseMenor">
+      Bmaior<input type="text" name="baseMaior">
+      <button type="submit" name="button">Calcular</button>
+    </form> -->
 
-<!-- <h5>Area Losango</h5>
-<form class="" action="../../controller/areaLosango.controller.php" method="post">
-    Dmaior<input type="text" name="diagonalMaior">
-    Dmenor<input type="text" name="diagonalMenor">
-    <button type="submit" name="button">Calcular</button>
-</form> -->
+    <!-- <h5>Area Losango</h5>
+      <form class="" action="../../controller/areaLosango.controller.php" method="post">
+        Dmaior<input type="text" name="diagonalMaior">
+        Dmenor<input type="text" name="diagonalMenor">
+        <button type="submit" name="button">Calcular</button>
+      </form> -->
 
-<!-- <h5>Area e volume do cilindro</h5>
-<form class="" action="../../controller/areaVolumeCilindro.controller.php" method="post">
-  raio<input type="text" name="raio">
-  altura<input type="text" name="altura">
-  <button type="submit" name="button">Calcular</button>
-</form> -->
+      <!-- <h5>Area e volume do cilindro</h5>
+        <form class="" action="../../controller/areaVolumeCilindro.controller.php" method="post">
+          raio<input type="text" name="raio">
+          altura<input type="text" name="altura">
+          <button type="submit" name="button">Calcular</button>
+        </form> -->
 
-<?php require_once '../_includes/footer.php'; ?>
+        <?php require_once '../_includes/footer.php'; ?>

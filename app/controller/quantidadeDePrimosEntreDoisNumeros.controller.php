@@ -18,14 +18,14 @@ if (filter_has_var(INPUT_POST,'primos')) {
   foreach ($res as $key => $value) {
       if ($value) {
         $cont++;
-        $html.="<strong class='blue-text'>".$key."</strong>, ";
+        $html.="<strong class='deep-purple-text'>".$key."</strong>, ";
       }else {
         $html.=$key.", ";
       }
   }
 
   echo "
-  <div id='resultado' class='card-panel'>
+  <div id='resultado' class='card-panel black-text'>
   <strong>De ".$numero_inicial." até ".$numero_final." contêm ".$cont." números primos!</strong>
   <p class='flow-text'>".$html."</p>
   </div>

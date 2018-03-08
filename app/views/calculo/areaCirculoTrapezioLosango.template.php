@@ -3,15 +3,15 @@
 <div class="section">
   <div class="col s12">
     <div class="row">
-      <h2 class="hader">Área do círculo</h2>
+      <h3 class="hader">Área do círculo</h3>
       <div class="divider"></div>
 
       <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <blockquote>
         Area = raio * pi
       </blockquote>
-      <div class="col s12 l6 offset-l3">
-        <div id="circulo" class="card hoverable deep-purple  white-text">
+      <div class="col  l6 offset-l3">
+        <div id="circulo" class="card hoverable deep-purple lighten-1  white-text">
           <div class="card-content">
             <div class="card-title">Área do Círculo</div>
             <form action="/area-circulo-trapezio-losango#circulo" method="post">
@@ -21,7 +21,7 @@
                   <label for="raio">Raio</label>
                 </div>
               </div>
-              <div class="section">
+              <!-- <div class="section">
                 <p>
                   <input name="uniMedida" type="radio" id="cm1" value="cm"checked />
                   <label for="cm1">Centimetros</label>
@@ -34,7 +34,7 @@
                   <input name="uniMedida" type="radio" id="km1" value="km"/>
                   <label for="km1">Kilometros</label>
                 </p>
-              </div>
+              </div> -->
               <button class="btn waves-effect waves-light" type="submit" name="circulo"> Calcular
                 <i class="material-icons right">send</i>
               </button>
@@ -58,8 +58,7 @@
       <blockquote cite="http://">
         formula
       </blockquote>
-
-      <div id="trapezio" class="card hoverable deep-purple   white-text">
+        <div id="trapezio" class="card hoverable deep-purple lighten-1   white-text">
         <div class="card-content">
           <div class="card-title">Área do Trapezio</div>
           <form action="/area-circulo-trapezio-losango#trapezio" method="post">
@@ -77,17 +76,17 @@
                 <label for="BaseMenor">Base Menor</label>
               </div>
             </div>
-            <button class="btn waves-effect waves-light" type="submit" name="areaTrapezio"> Calcular
-              <i class="material-icons right">send</i>
-            </button>
-            <div class="col s12 m4 right">
-              <input name="uniMedida" type="radio" id="cm2" value="cm"checked />
-              <label for="cm2">Centimetros</label>
-              <input name="uniMedida" type="radio" id="mt2" value="mt" />
-              <label for="mt2">Metros</label>
-              <input name="uniMedida" type="radio" id="km2" value="km"/>
-              <label for="km2">Kilometros</label>
-            </div>
+              <button class="btn waves-effect waves-light l6" type="submit" name="areaTrapezio"> Calcular
+                <i class="material-icons right">send</i>
+              </button>
+              <!-- <div class="row col m6 s3 offset-m3 hide">
+                <input name="uniMedida" type="radio" id="cm2" value="cm"checked />
+                <label for="cm2">Centimetros</label>
+                <input name="uniMedida" type="radio" id="mt2" value="mt" />
+                <label for="mt2">Metros</label>
+                <input name="uniMedida" type="radio" id="km2" value="km"/>
+                <label for="km2">Kilometros</label>
+              </div> -->
           </form>
         </div>
         <?php
@@ -110,7 +109,7 @@
         formula
       </blockquote>
 
-      <div id="losango" class="card hoverable deep-purple   white-text">
+      <div id="losango" class="card hoverable deep-purple lighten-1   white-text">
         <div class="card-content">
           <div class="card-title">Área Losango</div>
           <form action="/area-circulo-trapezio-losango#losango" method="post">
@@ -127,14 +126,14 @@
             <button class="btn waves-effect waves-light" type="submit" name="losango"> Calcular
               <i class="material-icons right">send</i>
             </button>
-            <span class="right">
+            <!-- <span class="right">
               <input name="uniMedida" type="radio" id="cm3" value="cm"checked />
               <label for="cm3">Centimetros</label>
               <input name="uniMedida" type="radio" id="mt3" value="mt" />
               <label for="mt3">Metros</label>
               <input name="uniMedida" type="radio" id="km3" value="km"/>
               <label for="km3">Kilometros</label>
-            </span>
+            </span> -->
           </form>
         </div>
         <?php include '../../controller/areaLosango.controller.php'; ?>
@@ -154,7 +153,7 @@
         formula
       </blockquote>
 
-      <div id="volume-cilindro" class="card hoverable deep-purple   white-text">
+      <div id="volume-cilindro" class="card hoverable deep-purple lighten-1   white-text">
         <div class="card-content">
           <div class="card-title">Área e volume do cílindro</div>
           <form action="/area-circulo-trapezio-losango#volume-cilindro" method="post">
@@ -171,14 +170,14 @@
             <button class="btn waves-effect waves-light" type="submit" name="cilindro"> Calcular
               <i class="material-icons right">send</i>
             </button>
-            <span class="right">
+            <!-- <span class="right">
               <input name="uniMedida" type="radio" id="cm4" value="cm"checked />
               <label for="cm4">Centimetros</label>
               <input name="uniMedida" type="radio" id="mt4" value="mt" />
               <label for="mt4">Metros</label>
               <input name="uniMedida" type="radio" id="km4" value="km"/>
               <label for="km4">Kilometros</label>
-            </span>
+            </span> -->
           </form>
         </div>
         <?php include '../../controller/areaVolumeCilindro.controller.php'; ?>

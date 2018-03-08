@@ -1,6 +1,6 @@
 <?php $title = "Qtd De Primos Entre Dois Numeros"; require_once '../_includes/header.php'; ?>
 
-<div class="card deep-purple">
+<div class="card deep-purple hoverable white-text">
   <div class="card-content">
     <div class="card-title">Números primos entre dois números</div>
     <form action="/quantidade-de-numeros-primos-entre-dois-numeros#resultado" class="col s12" method="post">

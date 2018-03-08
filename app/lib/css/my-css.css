@@ -33,3 +33,35 @@ main,footer,header{
 .space-1{
   padding: 2em 0;
 }
+
+/* Logo */
+.banner-logo{
+  height: 150px;
+  padding: 30px;
+}
+
+.logo{
+  font-family: 'Niconne', cursive;
+  font-size: 3em;
+  /* font-weight: bold; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  transform: rotate(-5deg);
+  top: -18px;
+}
+.sistema{
+
+}
+.de{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 15%;
+}
+.informacao{
+  position: absolute;
+  top: 85%;
+  left: 1rem;
+}

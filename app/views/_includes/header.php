@@ -27,7 +27,7 @@
 </head>
 <body class="">
   <header>
-     <nav class="top-nav hide-on-large-only deep-purple">
+     <nav class="top-nav hide-on-large-only gradient">
       <div class="container">
       <!-- <div class="nav-wrapper deep-purple-text">
         <a href="#" class="brand-logo">Logo</a>
@@ -42,7 +42,7 @@
     </nav>
     <ul id="nav-mobile" class="side-nav fixed">
       <a href="//localhost:8080">
-      <li class="banner-logo deep-purple ">
+      <li class="banner-logo gradient ">
         <div class="logo white-text">
           <span class="sistema">Sistema</span>
           <span class="de">de</span>

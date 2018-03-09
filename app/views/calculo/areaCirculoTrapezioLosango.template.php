@@ -11,7 +11,7 @@
         Area = raio * pi
       </blockquote>
       <div class="col  l6 offset-l3">
-        <div id="circulo" class="card hoverable deep-purple lighten-1  white-text">
+        <div id="circulo" class="card hoverable gradient lighten-1  white-text">
           <div class="card-content">
             <div class="card-title">Área do Círculo</div>
             <form action="/area-circulo-trapezio-losango#circulo" method="post">
@@ -58,7 +58,8 @@
       <blockquote cite="http://">
         formula
       </blockquote>
-        <div id="trapezio" class="card hoverable deep-purple lighten-1   white-text">
+      <div class="col l8 offset-l2">
+        <div id="trapezio" class="card hoverable gradient lighten-1   white-text">
         <div class="card-content">
           <div class="card-title">Área do Trapezio</div>
           <form action="/area-circulo-trapezio-losango#trapezio" method="post">
@@ -94,6 +95,7 @@
         ?>
       </div>
     </div>
+    </div>
   </div>
 </div>
 
@@ -109,7 +111,8 @@
         formula
       </blockquote>
 
-      <div id="losango" class="card hoverable deep-purple lighten-1   white-text">
+      <div class="col l8 offset-l2">
+      <div id="losango" class="card hoverable gradient lighten-1   white-text">
         <div class="card-content">
           <div class="card-title">Área Losango</div>
           <form action="/area-circulo-trapezio-losango#losango" method="post">
@@ -139,6 +142,7 @@
         <?php include '../../controller/areaLosango.controller.php'; ?>
       </div>
     </div>
+    </div>
   </div>
 </div>
 
@@ -153,7 +157,8 @@
         formula
       </blockquote>
 
-      <div id="volume-cilindro" class="card hoverable deep-purple lighten-1   white-text">
+      <div class="col l8 offset-l2">
+      <div id="volume-cilindro" class="card hoverable gradient lighten-1   white-text">
         <div class="card-content">
           <div class="card-title">Área e volume do cílindro</div>
           <form action="/area-circulo-trapezio-losango#volume-cilindro" method="post">
@@ -182,6 +187,7 @@
         </div>
         <?php include '../../controller/areaVolumeCilindro.controller.php'; ?>
       </div>
+    </div>
     </div>
   </div>
 </div>

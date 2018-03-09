@@ -7,67 +7,41 @@
 
   <!-- Impot My Css -->
   <link rel="stylesheet" href="lib/css/my-css.css">
+
+  <!-- Import Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Niconne&amp;subset=latin-ext" rel="stylesheet">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
+
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body class="">
-  <style media="screen">
-    .logo{
-      font-family: 'Niconne', cursive;
-      font-size: 1em;
-      /* font-weight: bold; */
-      display: flex;
-      flex-direction: column;
-      position: relative;
-
-      transform: rotate(-5deg);
-      top: -18px;
-    }
-    .sistema{
-
-    }
-    .de{
-        position: absolute;
-        top: 10%;
-        left: 20%;
-        font-size: 15%;
-    }
-    .informacao{
-      position: absolute;
-      top: 70%;
-      left: 1rem;
-    }
-  </style>
-  <header class="index">
-    <div class="navbar-fixed ">
-      <nav>
-        <div class="nav-wrapper deep-purple">
-          <div class="container">
-            <a href="#!" class="brand-logo">
-              <div class="logo">
-                <span class="sistema">Sistema</span>
-                <span class="de">de</span>
-                <span class="informacao">Informação</span>
-              </div>
-            </a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="http://github.com/DeividFrancis/at.1_3p_si_2018.1-linguagem_e_desenvolvimento_para_web">GitHub</a></li>
-              <li><a href="badges.html">Components</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <div class="nav-home">
+  <div class="container">
+    <ul class="menu-index">
+      <li><a href="">Sobre</a></li>
+      <li><a href="">Atividades</a></li>
+      <li><a href="https://github.com/DeividFrancis/at.1_3p_si_2018.1-linguagem_e_desenvolvimento_para_web">GitHub</a></li>
+    </ul>
+  </div>
+  </div>
   <main class="index">
-
+    <div class="container-fundo">
+      <div class="fundo"></div>
     <div class="parallax-container">
-      <div class="parallax"><img src="images/my-php.png"></div>
+      <div class="parallax"><img src="images/my-php.jpg"></div>
+    </div>
+    <div class="container-logo">
+      <div class="index-logo">
+        <div class="sistema-index">Sistema</div>
+        <div class="de-index">de</div>
+        <div class="informacao-index">Informação</div>
+      </div>
+    </div>
     </div>
     <div class="row">
       <div class="container">
@@ -76,7 +50,7 @@
         <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
-    <div class="row deep-purple   space-1">
+    <div class="row gradient   space-1">
       <div class="container">
         <div class="col s12 m3">
           <a href="juros-simples-composto">

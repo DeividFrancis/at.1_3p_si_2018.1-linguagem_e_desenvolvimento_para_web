@@ -4,47 +4,53 @@
  */
 class calculadora
 {
-  public function juros_simples($capital, $juros, $tempo)
+  public function juros_simples($capital, $taxa, $tempo)
   {
-    $result = $capital * $juros * $tempo;
-    $result += $capital;
+    $result = Array();
+    $result['juros'] = $capital * $taxa * $tempo;
+    $result['total'] = $result['juros'] +  $capital;
     return $result;
   }
 
-  public function juros_composto($capital, $tempo, $juros)
+  public function juros_composto($capital, $taxa, $tempo)
   {
-     $result = $capital * pow((1 + $juros),$tempo);
-     return number_format($result,2,",",".");
+     $result = Array();
+     $result['total'] = $capital * pow((1 + $taxa),$tempo);
+     $result['juros'] = $result['total'] - $capital;
+
+     $result['total'] = number_format($result['total'],2,",",".");
+     $result['juros'] = number_format($result['juros'],2,",",".");
+     return $result;
   }
 
   public function area_circulo($raio)
   {
     $result = M_PI * pow($raio,2);
-    return number_format($result,2,".",null );
+    return number_format($result,2);
   }
 
   public function area_trapezio($altura, $base_maior,$base_menor)
   {
     $result = ($altura * ($base_maior + $base_menor))/ 2;
-    return number_format($result,2,".",null);
+    return number_format($result,2,",",".");
   }
 
   public function area_losango($diagonal_menor,$diagonal_maior)
   {
     $result = ($diagonal_maior * $diagonal_menor) / 2;
-    return number_format($result,2,".",null);
+    return number_format($result,2,",",".");
   }
 
   public function area_cilindro($raio, $altura)
   {
     $result = 2 * M_PI * $raio * ($raio + $altura);
-    return number_format($result,2,".",null);
+    return number_format($result,2,",",".");
   }
 
   public function volume_cilindro($raio,$altura)
   {
     $result = M_PI * pow($raio,2) * $altura;
-    return number_format($result,2,".",null);
+    return number_format($result,2,",",".");
   }
 
   public function retorna_primo($value)

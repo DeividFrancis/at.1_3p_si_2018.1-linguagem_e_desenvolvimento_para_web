@@ -34,4 +34,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script src="lib/materialize/js/materialize.js" charset="utf-8"></script>
   <script src="lib/js/materialize.deivid.js" charset="utf-8"></script>
+  <script src="lib/mask/jquery.mask.min.js" charset="utf-8"></script>
 </html>

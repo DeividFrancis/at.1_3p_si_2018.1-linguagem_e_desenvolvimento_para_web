@@ -1,26 +1,35 @@
 <?php
 /**
- *
- */
+*
+*/
 class calculadora
 {
   public function juros_simples($capital, $taxa, $tempo)
   {
+    $capital = str_replace('.','',$capital);
+    $capital = str_replace(',','.',$capital);
+
     $result = Array();
     $result['juros'] = $capital * $taxa * $tempo;
     $result['total'] = $result['juros'] +  $capital;
+
+    $result['total'] = number_format($result['total'],2,",",".");
+    $result['juros'] = number_format($result['juros'],2,",",".");
     return $result;
   }
 
   public function juros_composto($capital, $taxa, $tempo)
   {
-     $result = Array();
-     $result['total'] = $capital * pow((1 + $taxa),$tempo);
-     $result['juros'] = $result['total'] - $capital;
+    $capital = str_replace('.','',$capital);
+    $capital = str_replace(',','.',$capital);
 
-     $result['total'] = number_format($result['total'],2,",",".");
-     $result['juros'] = number_format($result['juros'],2,",",".");
-     return $result;
+    $result = Array();
+    $result['total'] = $capital * pow((1 + $taxa),$tempo);
+    $result['juros'] = $result['total'] - $capital;
+
+    $result['total'] = number_format($result['total'],2,",",".");
+    $result['juros'] = number_format($result['juros'],2,",",".");
+    return $result;
   }
 
   public function area_circulo($raio)
@@ -58,7 +67,7 @@ class calculadora
     $cont = 0;
     for ($i=1; $i <= $value; $i++) {
       if ($value % $i == 0)
-        $cont++;
+      $cont++;
     }
     if($cont == 2){
       return $value;
@@ -83,7 +92,7 @@ class calculadora
           break;
         }
         else
-          $result[$i] = true;
+        $result[$i] = true;
       }
 
     }
@@ -98,4 +107,4 @@ class calculadora
 }
 
 
- ?>
+?>

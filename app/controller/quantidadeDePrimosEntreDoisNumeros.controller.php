@@ -12,7 +12,7 @@ if (filter_has_var(INPUT_POST,'primos')) {
   require_once '../../modal/calculadora.class.php';
   $calculadora = new calculadora();
   $res = $calculadora->conta_quantidade_de_numeros_primos_entre_dois_numeros($numero_inicial,$numero_final);
-
+  
   $html = "";
   $cont = 0;
   foreach ($res as $key => $value) {

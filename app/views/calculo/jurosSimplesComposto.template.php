@@ -4,10 +4,25 @@
     <div class="row">
       <h2 class="hader">Juros Simples</h2>
       <div class="divider"></div>
-      <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="flow-text">O regime de juros será simples quando o percentual de juros incidir apenas sobre o valor principal. Sobre os juros gerados a cada período não incidirão novos juros. Valor principal ou simplesmente principal é o valor inicial emprestado ou aplicado, antes de somarmos os juros. Transformando em fórmula, temos:</p>
+
+      <blockquote cite="https://www.somatematica.com.br/emedio/finan2.php">
+        J = P . i . n
+      </blockquote>
+      <ul>
+        <li><b>J</b>= juros</li>
+        <li><b>P</b>= principal (capital)</li>
+        <li><b>i</b>= taxas de juros</li>
+        <li><b>n</b>= números de períodos</li>
+      </ul>
+      <p class="flow-text">Ao somarmos os juros ao valor principal, temos o montante</p>
+      <ul>
+        <li><b>Montante</b>= Principal + Juros</li>
+        <li><b>Montante</b>= Principal + (principal x Taxa de juros x números de períodos)</li>
+      </ul>
 
       <blockquote cite="http://">
-        formula
+        M = P . ( 1 + ( i . n ) )
       </blockquote>
 
       <div class="col l8 offset-l2">
@@ -17,7 +32,7 @@
             <form class="" action="/juros-simples-composto#juros-simples" method="POST">
               <div class="row">
                 <div class="input-field col s6">
-                  <input id="capital" type="text" name="capital">
+                  <input class="money" id="capital" type="text" name="capital">
                   <label for="capital">Capital (R$)</label>
                 </div>
                 <div class="input-field col s6">
@@ -41,6 +56,10 @@
           <?php include '../../controller/jurosSimples.controller.php'; ?>
         </div>
       </div>
+
+      <div class="">
+      <div class="col s12">Fonte: <a href="https://www.somatematica.com.br/emedio/finan2.php">https://www.somatematica.com.br/emedio/finan2.php</a></div>
+      </div>
     </div>
   </div>
 </div>
@@ -50,10 +69,24 @@
     <div class="row">
       <h2 class="header">Juros Composto</h2>
       <div class="divider"></div>
-      <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="flow-text">Juros compostos são a aplicação de juros sobre juros, isto é, os juros compostos são aplicados ao montante de cada período.</p>
+      <p class="flow-text">Juros compostos são muito utilizados pelo sistema financeiro, pois oferece uma rentabilidade melhor. A taxa de juros é sempre aplicada ao somatório do capital no final de cada mês. Onde temos a seguinte formula:</p>
 
+      <blockquote cite="https://matematicabasica.net/juros-compostos/">
+        M = C x (1 + i)<sup>t</sup>
+      </blockquote>
+
+      <p class="flow">Onde:</p>
+      <ul>
+        <li><b>M</b>= é o montante final;</li>
+        <li><b>C</b>= é o capital ou valor inicial;</li>
+        <li><b>i</b>= é a taxa de juros aplicada;</li>
+        <li><b>t</b>= é o tempo total;</li>
+      </ul>
+
+      <p class="flow">O cálculo somente feito dos juros é obtido pela seguinte fórmula:</p>
       <blockquote cite="http://">
-        formula
+        J = M - C
       </blockquote>
 
       <div class="col l8 offset-l2">
@@ -63,7 +96,7 @@
             <form action="/juros-simples-composto#juro-composto" method="POST">
               <div class="row">
                 <div class="input-field col s6">
-                  <input id="capital" type="text" name="capital">
+                  <input class="money" id="capital" type="text" name="capital">
                   <label for="capital">Capital (R$)</label>
                 </div>
                 <div class="input-field col s6">
@@ -86,6 +119,9 @@
           </div>
           <?php include '../../controller/jurosComposto.controller.php'; ?>
         </div>
+      </div>
+      <div class="">
+      <div class="col s12">Fonte: <a href="https://matematicabasica.net/juros-compostos/">https://matematicabasica.net/juros-compostos/</a></div>
       </div>
     </div>
   </div>

@@ -6,10 +6,16 @@
       <h3 class="hader">Área do círculo</h3>
       <div class="divider"></div>
 
-      <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="flow-text">A área do círculo corresponde ao valor da superfície dessa figura, levando em conta a medida de seu raio (r).</p>
+      <p class="flow-text">Para calcular a área do círculo devemos utilizar a seguinte fórmula:</p>
       <blockquote>
-        Area = raio * pi
+        Area = π  * r <sup>2</sup>
       </blockquote>
+      <p>Onde:</p>
+      <ul>
+        <li><b>π</b>= constante Pi(3,14);</li>
+        <li><b>r</b>= raio;</li>
+      </ul>
       <div class="col  l6 offset-l3">
         <div id="circulo" class="card hoverable gradient lighten-1  white-text">
           <div class="card-content">
@@ -43,6 +49,7 @@
           <?php include '../../controller/areaCirculo.controller.php'; ?>
         </div>
       </div>
+      <p>https://www.todamateria.com.br/area-do-circulo/</p>
     </div>
   </div>
 </div>
@@ -53,11 +60,19 @@
     <div class="row">
       <h2 class="hader">Área do Trapezio</h2>
       <div class="divider"></div>
-      <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="flow-text">O trapézio é um quadrilátero que possui dois lados paralelos chamados de base maior e base menor e dois lados não paralelos.</p>
 
       <blockquote cite="http://">
-        formula
+        Área = ((B + b) * h) / 2
       </blockquote>
+
+      <p>Onde temos:</p>
+      <ul>
+        <li><b>B</b>= base maior;</li>
+        <li><b>b</b>= base menor;</li>
+        <li><b>h</b>= altura;</li>
+      </ul>
+
       <div class="col l8 offset-l2">
         <div id="trapezio" class="card hoverable gradient lighten-1   white-text">
         <div class="card-content">
@@ -95,6 +110,7 @@
         ?>
       </div>
     </div>
+    <p>http://alunosonline.uol.com.br/matematica/area-trapezio.html</p>
     </div>
   </div>
 </div>
@@ -105,11 +121,16 @@
     <div class="row">
       <h2 class="hader">Área Losango</h2>
       <div class="divider"></div>
-      <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="flow-text">O losango é um quadrilátero que possui os quatro lados congruentes, ou seja, com a mesma medida. É composto também por duas diagonais: diagonal maior (D) e diagonal menor (d). Essas duas diagonais se cruzam no ponto médio de cada uma (exatamente no meio delas). Os ângulos opostos de um losango também são congruentes.</p>
 
       <blockquote>
-        formula
+        Área = (D * d) / 2
       </blockquote>
+      <p>Onde:</p>
+      <ul>
+        <li><b>D</b>= é a medida da diagonal maior;</li>
+        <li><b>d</b>= é a medida da diagonal menor</li>
+      </ul>
 
       <div class="col l8 offset-l2">
       <div id="losango" class="card hoverable gradient lighten-1   white-text">
@@ -142,6 +163,7 @@
         <?php include '../../controller/areaLosango.controller.php'; ?>
       </div>
     </div>
+    <p>http://escolakids.uol.com.br/area-de-um-losango.htm</p>
     </div>
   </div>
 </div>

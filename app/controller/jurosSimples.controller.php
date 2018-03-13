@@ -20,8 +20,8 @@ if (filter_has_var(INPUT_POST,"simples")) {
 
   echo "
   <div class='card-panel '>
-  <p class='center  deep-purple-text'>Juros: ".$res['juros']."</p>
-  <p class='center  deep-purple-text'>Total: ".$res['total']."</p>
+  <p class='center  deep-purple-text '>Juros: R$ <span class='money'>".$res['juros'] ."</span></p>
+  <p class='center  deep-purple-text flow-text'>Total: R$ <span class='money'>".$res['total']."</span></p>
   </div>
   ";
 }

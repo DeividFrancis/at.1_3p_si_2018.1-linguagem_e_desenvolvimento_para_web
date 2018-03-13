@@ -71,17 +71,21 @@ class calculadora
 
     $result = array();
     for ($i=$primeiro; $i <= $ultimo ; $i++) {
-      $cont = 0;
 
-      for ($j=1; $j <= $i; $j++) {
-        if ($i % $j == 0)
-          $cont++;
-      }
-      if($cont == 2){
+      if($i == 2){
         $result[$i] = true;
-      }else{
-        $result[$i] = false;
+        continue;
       }
+
+      for ($j=2; $j < $i ; $j++) {
+        if ($i % $j == 0){
+          $result[$i] = false;
+          break;
+        }
+        else
+          $result[$i] = true;
+      }
+
     }
 
     return $result;

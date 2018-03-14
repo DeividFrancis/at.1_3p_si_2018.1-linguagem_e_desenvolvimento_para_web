@@ -12,6 +12,6 @@
 ### Grupo de 4 integrantes no máximo.
   **INTEGRANTES**
   - Deivid Francis de Oliveira
-  - Daniel Jóse Bispo  Mediote
+  - Lennon Brasil
 
 ### Entrega dia 21 de março de 2018.

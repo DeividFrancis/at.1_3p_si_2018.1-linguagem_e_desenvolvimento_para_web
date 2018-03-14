@@ -8,5 +8,6 @@
   RewriteRule ^juros-simples-composto/?$ /views/calculo/jurosSimplesComposto.template.php [NC,L]
   RewriteRule ^area-circulo-trapezio-losango/?$ /views/calculo/areaCirculoTrapezioLosango.template.php [NC,L]
   RewriteRule ^quantidade-de-numeros-primos-entre-dois-numeros/?$ /views/calculo/quantidadeDePrimosEntreDoisNumeros.template.php [NC,L]
+  RewriteRule ^equacao-cubica/?$ /views/calculo/equacaoCubica.template.php [NC,L]
 
 </IfModule>

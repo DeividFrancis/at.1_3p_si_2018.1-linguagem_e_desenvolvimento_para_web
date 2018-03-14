@@ -55,7 +55,7 @@
       <li><a href="juros-simples-composto">Juros simples/coposto</a></li>
       <li><a href="area-circulo-trapezio-losango">Area circulo trapezio e losango</a></li>
       <li><a href="quantidade-de-numeros-primos-entre-dois-numeros">Calculo números primos</a></li>
-      <li><a href="#">Equação do 3 grau</a></li>
+      <li><a href="equacao-cubica">Equação do 3 grau</a></li>
     </ul>
   </header>
   <main>

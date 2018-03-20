@@ -77,7 +77,7 @@
           </a>
         </div>
         <div class="col s12 m3">
-          <a href="">
+          <a href="equacao-cubica">
             <div class="card hoverable">
               <div class="card-image"><img src="images/cubo.png" alt=""></div>
               <div class="card-content">Calculo da equação do 3 grau</div>

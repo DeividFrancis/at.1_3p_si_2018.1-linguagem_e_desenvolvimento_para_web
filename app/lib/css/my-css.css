@@ -150,7 +150,9 @@ main{
   padding-left: 1em;
 }
 
-
+.blue-grey > a{
+  color: white !important;
+}
 /* Screen adapitive */
 
 

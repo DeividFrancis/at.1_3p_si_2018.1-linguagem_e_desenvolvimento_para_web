@@ -6,8 +6,6 @@
   <!-- Import materialize off -->
   <link rel="stylesheet" href="lib/materialize/css/materialize.css" media="screen,projection">
 
-  <!-- Impot My Css -->
-  <link rel="stylesheet" href="/lib/css/my-css.css">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Import Google font -->
@@ -24,6 +22,8 @@
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+  <!-- Impot My Css -->
+  <link rel="stylesheet" href="/lib/css/my-css.css">
 </head>
 <body class="">
   <header>
@@ -40,7 +40,7 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full "><i class="material-icons ">menu</i></a>
       </div>
     </nav>
-    <ul id="nav-mobile" class="side-nav fixed">
+    <ul id="nav-mobile" class="side-nav fixed blue-grey darken-3">
       <a href="/home">
       <li class="banner-logo gradient ">
         <div class="logo white-text">
@@ -52,10 +52,10 @@
     </a>
 
       <!-- <li><a href="//localhost:8080">Home</a></li> -->
-      <li><a href="juros-simples-composto">Juros simples/coposto</a></li>
-      <li><a href="area-circulo-trapezio-losango">Area circulo trapezio e losango</a></li>
-      <li><a href="quantidade-de-numeros-primos-entre-dois-numeros">Calculo números primos</a></li>
-      <li><a href="equacao-cubica">Equação do 3 grau</a></li>
+      <li><a class="white-text"href="juros-simples-composto">Juros simples/coposto</a></li>
+      <li><a class="white-text"href="area-circulo-trapezio-losango">Area circulo trapezio e losango</a></li>
+      <li><a class="white-text"href="quantidade-de-numeros-primos-entre-dois-numeros">Calculo números primos</a></li>
+      <li><a class="white-text"href="equacao-cubica">Equação do 3 grau</a></li>
     </ul>
   </header>
   <main>

@@ -11,7 +11,7 @@ if(filter_has_var(INPUT_POST,'areaTrapezio')){
 
   echo "
   <div class='card-panel'>
-    <h3 class='center  deep-purple-text'>".$res."</h3>
+    <h5 class='center  deep-purple-text'>".$res."m<sup>2<sup></h5>
   </div>
   ";
 }

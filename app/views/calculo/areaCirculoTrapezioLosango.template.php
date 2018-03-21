@@ -24,21 +24,21 @@
               <div class="row">
                 <div class="input-field s10 center">
                   <input type="number" name="raio">
-                  <label for="raio">Raio</label>
+                  <label for="raio">Raio (metros)</label>
                 </div>
               </div>
               <!-- <div class="section">
                 <p>
                   <input name="uniMedida" type="radio" id="cm1" value="cm"checked />
-                  <label for="cm1">Centimetros</label>
+                  <label for="cm1">Centimetros (metros)</label>
                 </p>
                 <p>
                   <input name="uniMedida" type="radio" id="mt1" value="mt" />
-                  <label for="mt1">Metros</label>
+                  <label for="mt1">Metros (metros)</label>
                 </p>
                 <p>
                   <input name="uniMedida" type="radio" id="km1" value="km"/>
-                  <label for="km1">Kilometros</label>
+                  <label for="km1">Kilometros (metros)</label>
                 </p>
               </div> -->
               <button class="btn waves-effect waves-light" type="submit" name="circulo"> Calcular
@@ -81,15 +81,15 @@
             <div class="row">
               <div class="input-field col s12 m4 l4">
                 <input type="number" name="altura" id="altura">
-                <label for="altura">Altura</label>
+                <label for="altura">Altura (metros)</label>
               </div>
               <div class="input-field col s12 m4 l4">
                 <input type="number" name="baseMaior" id="BaseMaior">
-                <label for="BaseMaior">Base Maior</label>
+                <label for="BaseMaior">Base Maior (metros)</label>
               </div>
               <div class="input-field col s12 m4 l4">
                 <input type="number" name="baseMenor" id="BaseMenor">
-                <label for="BaseMenor">Base Menor</label>
+                <label for="BaseMenor">Base Menor (metros)</label>
               </div>
             </div>
               <button class="btn waves-effect waves-light l6" type="submit" name="areaTrapezio"> Calcular
@@ -97,11 +97,11 @@
               </button>
               <!-- <div class="row col m6 s3 offset-m3 hide">
                 <input name="uniMedida" type="radio" id="cm2" value="cm"checked />
-                <label for="cm2">Centimetros</label>
+                <label for="cm2">Centimetros (metros)</label>
                 <input name="uniMedida" type="radio" id="mt2" value="mt" />
-                <label for="mt2">Metros</label>
+                <label for="mt2">Metros (metros)</label>
                 <input name="uniMedida" type="radio" id="km2" value="km"/>
-                <label for="km2">Kilometros</label>
+                <label for="km2">Kilometros (metros)</label>
               </div> -->
           </form>
         </div>
@@ -140,11 +140,11 @@
             <div class="row">
               <div class="input-field col s12 m6">
                 <input type="number" name="diagonalMaior" id="dMaior">
-                <label for="dMaior">Diagonal Maior</label>
+                <label for="dMaior">Diagonal Maior (metros)</label>
               </div>
               <div class="input-field col s12 m6  ">
                 <input type="number" name="diagonalMenor" id="dMenor">
-                <label for="dMenor">Diagonal Menor</label>
+                <label for="dMenor">Diagonal Menor (metros)</label>
               </div>
             </div>
             <button class="btn waves-effect waves-light" type="submit" name="losango"> Calcular
@@ -152,11 +152,11 @@
             </button>
             <!-- <span class="right">
               <input name="uniMedida" type="radio" id="cm3" value="cm"checked />
-              <label for="cm3">Centimetros</label>
+              <label for="cm3">Centimetros (metros)</label>
               <input name="uniMedida" type="radio" id="mt3" value="mt" />
-              <label for="mt3">Metros</label>
+              <label for="mt3">Metros (metros)</label>
               <input name="uniMedida" type="radio" id="km3" value="km"/>
-              <label for="km3">Kilometros</label>
+              <label for="km3">Kilometros (metros)</label>
             </span> -->
           </form>
         </div>
@@ -178,9 +178,9 @@
       <h5>Área</h5>
       <!-- <p class="flow-text">Esse cálculo é feito em três etapas: área das bases, área lateral e soma das duas últimas. Antes de partir para exemplos, é importante compreender bem o que é um cilindro e algumas de suas características básicas.</p> -->
 
-      <!-- <blockquote >
-        formula
-      </blockquote> -->
+      <blockquote >
+        At = 2(π.r<sup>2</sup>) + 2(π.r.h)
+      </blockquote>
 
       <div class="col l8 offset-l2">
       <div id="volume-cilindro" class="card hoverable gradient lighten-1   white-text">
@@ -190,11 +190,11 @@
             <div class="row">
               <div class="input-field col s6">
                 <input type="number" name="raio">
-                <label for="raio">Raio</label>
+                <label for="raio">Raio (metros)</label>
               </div>
               <div class="input-field col s6">
                 <input type="number" name="altura">
-                <label for="altura">Altura</label>
+                <label for="altura">Altura (metros)</label>
               </div>
             </div>
             <button class="btn waves-effect waves-light" type="submit" name="cilindro"> Calcular
@@ -202,11 +202,11 @@
             </button>
             <!-- <span class="right">
               <input name="uniMedida" type="radio" id="cm4" value="cm"checked />
-              <label for="cm4">Centimetros</label>
+              <label for="cm4">Centimetros (metros)</label>
               <input name="uniMedida" type="radio" id="mt4" value="mt" />
-              <label for="mt4">Metros</label>
+              <label for="mt4">Metros (metros)</label>
               <input name="uniMedida" type="radio" id="km4" value="km"/>
-              <label for="km4">Kilometros</label>
+              <label for="km4">Kilometros (metros)</label>
             </span> -->
           </form>
         </div>

@@ -13,7 +13,7 @@ if (filter_has_var(INPUT_POST,"losango")) {
 
   echo "
   <div class='card-panel'>
-  <h3 class='center deep-purple-text'>".$res."</h3>
+  <h3 class='center deep-purple-text'>".$res."m<sup>2<sup></h3>
   </div>
   ";
 }

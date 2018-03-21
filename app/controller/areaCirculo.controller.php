@@ -12,7 +12,7 @@ if (filter_has_var(INPUT_POST,"circulo")) {
 
   echo "
   <div class='card-panel'>
-    <h3 class='center deep-purple-text'>".$res."m</h3>
+    <h3 class='center deep-purple-text'>".$res."m<sup>2</sup></h3>
   </div>
   ";
 }

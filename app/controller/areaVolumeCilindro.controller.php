@@ -14,8 +14,8 @@ if (filter_has_var(INPUT_POST,'cilindro')) {
 
     echo "
     <div class='card-panel '>
-    <h3 class='center  deep-purple-text'>Área: ".$res['area']."</h3>
-    <h3 class='center  deep-purple-text'>Volume: ".$res['volume']."</h3>
+    <h5 class='center  deep-purple-text'>Área: ".$res['area']."m<sup>2<sup></h5>
+    <h5 class='center  deep-purple-text'>Volume: ".$res['volume']."m<sup>3<sup></h5>
     </div>
     ";
   }else {

@@ -15,7 +15,7 @@
   <!-- Import fontawesome -->
   <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
 
-  <script src="https://use.fontawesome.com/14755b31a8.js"></script>
+  <!-- <script src="https://use.fontawesome.com/14755b31a8.js"></script> -->
 
 
   <!--Import materialize.css-->
@@ -41,7 +41,7 @@
       </div>
     </nav>
     <ul id="nav-mobile" class="side-nav fixed">
-      <a href="//localhost:8080">
+      <a href="/home">
       <li class="banner-logo gradient ">
         <div class="logo white-text">
           <span class="sistema">Sistema</span>

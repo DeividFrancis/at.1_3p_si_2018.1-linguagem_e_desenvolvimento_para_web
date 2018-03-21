@@ -5,22 +5,25 @@ if(filter_has_var(INPUT_POST, 'cubo')){
   $detC = filter_input(INPUT_POST,'detC');
   $detD = filter_input(INPUT_POST,'detD');
 
-
-  $res = null;
-  if($detD < 1){
-    $res = "Não existe equação cubica quando o D e menor que 0, isso e equaçaõ do 2 grau";
+  require_once '../../modal/equacaoCubica.php';
+  $detA = (float) $detA;
+  $detB = (float) $detB;
+  $detC = (float) $detC;
+  $detD = (float) $detD;
+  $res = (Array) resolve_equacao($detA,$detB,$detC,$detD);
+  if($res[0] === "nao tem" ){
     resposta($res);
-    return;
+  }else {
+    echo "<div class='card-panel deep-purple-text'>".$res[0]."</div>";
   }
-
 }
 
-function resposta($res ='')
+function resposta($res)
 {
   echo "<div class='card-panel deep-purple-text'>
-  <p>
-  $res
-  </p>
+  <p> Raiz 1: <b>".$res['r1']."</b> </p>
+  <p> Raiz 2: <b>".$res['r2']."</b> </p>
+  <p> Raiz 3: <b>".$res['r3']."</b> </p>
   </div>";
 }
 

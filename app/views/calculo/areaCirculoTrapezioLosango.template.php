@@ -49,7 +49,7 @@
           <?php include '../../controller/areaCirculo.controller.php'; ?>
         </div>
       </div>
-      <p>https://www.todamateria.com.br/area-do-circulo/</p>
+      <!-- <p>https://www.todamateria.com.br/area-do-circulo/</p> -->
     </div>
   </div>
 </div>
@@ -110,7 +110,7 @@
         ?>
       </div>
     </div>
-    <p>http://alunosonline.uol.com.br/matematica/area-trapezio.html</p>
+    <!-- <p>http://alunosonline.uol.com.br/matematica/area-trapezio.html</p> -->
     </div>
   </div>
 </div>
@@ -163,7 +163,7 @@
         <?php include '../../controller/areaLosango.controller.php'; ?>
       </div>
     </div>
-    <p>http://escolakids.uol.com.br/area-de-um-losango.htm</p>
+    <!-- <p>http://escolakids.uol.com.br/area-de-um-losango.htm</p> -->
     </div>
   </div>
 </div>
@@ -173,11 +173,14 @@
     <div class="row">
       <h2 class="hader">Área e volume do cilindro</h2>
       <div class="divider"></div>
-      <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h5>Volume</h5>
+      <div class="flow-text">O cilindro é um sólido geométrico classificado como corpo redondo por conter uma de suas faces arredondadas. Podemos observar a utilização do cilindro na indústria de embalagens, reservatórios de combustíveis e líquidos em geral. Em virtude da sua grande utilização no cotidiano, é importante conhecer seus elementos e saber realizar o cálculo de seu volume</div>
+      <h5>Área</h5>
+      <!-- <p class="flow-text">Esse cálculo é feito em três etapas: área das bases, área lateral e soma das duas últimas. Antes de partir para exemplos, é importante compreender bem o que é um cilindro e algumas de suas características básicas.</p> -->
 
-      <blockquote >
+      <!-- <blockquote >
         formula
-      </blockquote>
+      </blockquote> -->
 
       <div class="col l8 offset-l2">
       <div id="volume-cilindro" class="card hoverable gradient lighten-1   white-text">

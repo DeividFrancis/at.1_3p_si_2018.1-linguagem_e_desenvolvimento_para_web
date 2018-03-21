@@ -7,8 +7,12 @@ include '../_includes/header.php';
     <div class="row">
       <h2 class="hader">Equação cubica</h2>
       <div class="divider"></div>
-      <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <blockquote></blockquote>
+      <p class="flow-text">Em Matemática, uma equação cúbica ou equação do terceiro grau é uma equação polinomial de grau três. Qualquer equação de 3° grau pode ser escrita da seguinte forma:</p>
+      <blockquote>
+
+        aX<sup>3</sup> + bX<sup>2</sup> + cX + d = 0
+      </blockquote>
+      <p class="flow-text">sendo <i>a</i> , <i>b</i> , <i>c</i> e <i>d</i>  coeficientes reais ou complexos, tal que a ≠ 0. Observe que, como sempre é possível dividir a equação por <i>a</i>, pode-se supor que o coeficiente de x<sup>3</sup> é igual a 1.</p>
       <div class="col l6 offset-l3">
         <div class="card horable gradient white-text">
           <div class="card-content">

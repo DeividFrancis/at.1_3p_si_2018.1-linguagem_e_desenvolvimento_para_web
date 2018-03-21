@@ -1,13 +1,19 @@
 <?php
-$raio = filter_input(INPUT_POST,'raio');
-// Aceita tanto com  ponto ou virgula
-$raio = (float) str_replace(',','.',$raio);
+if (filter_has_var(INPUT_POST,"circulo")) {
+  $raio = filter_input(INPUT_POST,'raio');
+  // Aceita tanto com  ponto ou virgula
+  $raio = (float) str_replace(',','.',$raio);
 
-$metragem = filter_input(INPUT_POST,'metragem');
+  $metragem = filter_input(INPUT_POST,'metragem');
 
-require_once '../modal/calculadora.class.php';
-$calculadora = new calculadora();
-$res = $calculadora->area_circulo($raio);
+  include '../../modal/calculadora.class.php';
+  $calculadora = new calculadora();
+  $res = $calculadora->area_circulo($raio);
 
-var_dump($res);
+  echo "
+  <div class='card-panel'>
+    <h3 class='center deep-purple-text'>".$res."m<sup>2</sup></h3>
+  </div>
+  ";
+}
  ?>

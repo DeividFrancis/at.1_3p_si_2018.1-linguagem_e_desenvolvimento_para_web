@@ -1,0 +1,166 @@
+
+main,footer,header{
+  padding-left: 200px;
+}
+
+main{
+  min-height: 80vh;
+}
+
+.fundo{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(-25deg,#ad5389,#3c1053);
+  opacity: .8;
+  z-index: 0;
+}
+
+.gradient{
+  background-image: linear-gradient(-25deg,#ad5389,#3c1053) !important;
+  opacity: .8;
+  z-index: 0;
+}
+
+.gradient label,.gradient .input-field label{
+  color: #fff;
+}
+
+.gradient [type="radio"]:not(:checked) + label:before, [type="radio"]:not(:checked) + label:after{
+  border-color: #fff;
+}
+
+.card input{
+  font-size: 2em !important;
+}
+
+.nav-home{
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+.menu-index{
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-index li a{
+  padding: 10px;
+  color: #fff;
+}
+
+.hader{
+  color: #444;
+}
+.absolute{
+  position: absolute;
+  width: 100%;
+}
+
+/* Especiais do index */
+.index {
+  padding-left: 0;
+}
+
+.space-1{
+  padding: 2em 0;
+}
+
+/* Logo */
+.banner-logo{
+  height: 150px;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+  font-family: 'Niconne', cursive;
+  font-size: 3em;
+  /* font-weight: bold; */
+  text-shadow: 0 0 10px rgba(0, 0, 0, .4);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  transform: rotate(-5deg);
+  top: -18px;
+}
+.sistema{
+
+}
+.de{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  font-size: 15%;
+}
+.informacao{
+  position: absolute;
+  top: 85%;
+  left: 1rem;
+}
+
+
+
+.container-fundo{
+  position: relative;
+}
+
+.container-logo{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.index-logo{
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  font-size: 5em;
+  font-family: 'Niconne', cursive;
+  transform: rotate(-5deg);
+}
+.sistema-index, .informacao-index{
+  line-height: .8em;
+}
+.sistema-index{
+  font-size: calc(5% + 2em);
+}
+.de-index{
+  line-height: 0;
+  /* display: inline; */
+  font-size: 0.5em;
+  background-color: #000;
+  padding-left: 2.5em;
+}
+.informacao-index{
+  padding-left: 1em;
+}
+
+
+/* Screen adapitive */
+
+
+@media only screen and (max-width: 992px){
+  .index-logo{
+    font-size: 3em;
+  }
+  @media only screen and (max-width: 992px){
+    main,footer,header{
+      padding-left: 0;
+    }
+
+  }
